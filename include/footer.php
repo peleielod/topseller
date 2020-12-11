@@ -15,7 +15,7 @@
 					</div>
 					
 					<div class="col-xs-6 col-sm-4 col-md-7 col-lg-7 justify-content-left">
-						<h3>TOPSELLER.HU ALKALMAZÁS</h3>
+						<h3  class='text-center'>TOPSELLER.HU ALKALMAZÁS</h3>
 						<div class='text'>
 							<a href="/akcioink" class=""><p class="topseller-app-info-span"> A Topseller alkalmazással az inspiráló divatötletek mindig a rendelkezésedre állnak. Új termékeket, kollekciókat és kedvezményeket találhatsz ingyen, egy helyen!  </p></a>
 						

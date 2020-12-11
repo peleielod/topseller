@@ -45,6 +45,8 @@
             </a>
             <section>
          </div>
+		 
+
          <div class="col-lg-2 col-sm-4 col-6">
             <section class="panel">
             <a href='/product-list'>
@@ -110,10 +112,11 @@
    <h1>Népszerű kedvezmények</h1>
    <div class='product-list'>
       <div class="row">
-         <div class="col-lg-3 col-sm-4 col-6">
-            <a href="#">
-            <a href="/details.php">
+
+		 
+		  <div class="col-lg-3 col-sm-4 col-6 padding-right">
                <section class="panel">
+			    <a href="/details.php">
                   <div class="pro-img-box discounted" data-highlighted="24%">
                      <img src="https://img.kokiskashop.hu/p/32/67416/1566895266-812597-big.jpg" alt=""> 
                      <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -140,13 +143,13 @@
                         <button type="submit" class="btn button-green">Érdekel</button>
                      </div>
                   </div>
-            </a>
             </section>
             </a>
          </div>
-         <div class="col-lg-3 col-sm-4 col-6">
-            <a href="/details.php">
+		 
+         <div class="col-lg-3 col-sm-4 col-6 padding-right">
                <section class="panel">
+			     <a href="/details.php">
                   <div class="pro-img-box discounted" data-highlighted="24%">
                      <img src="https://img.kokiskashop.hu/p/1/385/1461453137-169706-big.jpg" alt=""> 
                      <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -160,9 +163,10 @@
                      <h4>
                         <div class="pro-title">
                            Kerti sátor GARTHEN 3 x 3 m - zöld 
-            </a>
+						</div>
             </h4>
             <div class='price-shipping'>
+			 <span class="free-shipping-span">Raktáron </span>
             <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
             <span class="amount-old">4880 Ft</span> 
             <span class="price">3690 Ft</span>
@@ -175,9 +179,9 @@
             </a>
             </section>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6">
-               <a href="/details.php">
+            <div class="col-lg-3 col-sm-4 col-6 padding-right">
                   <section class="panel">
+				    <a href="/details.php">
                      <div class="pro-img-box discounted" data-highlighted="24%">
                         <img src="https://img.kokiskashop.hu/p/43/1147/1536654750-351257-big.jpg" alt=""> 
                         <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -207,9 +211,9 @@
                   </section>
                </a>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6">
-               <a href="/details.php">
+            <div class="col-lg-3 col-sm-4 col-6 padding-right">
                   <section class="panel">
+				    <a href="/details.php">
                      <div class="pro-img-box discounted" data-highlighted="24%">
                         <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
                         <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -243,10 +247,9 @@
          <!--.row-->
          <h1>Egyéb kedvelt termékek</h1>
          <div class="row">
-            <div class="col-lg-3 col-sm-4 col-6">
-               <a href="#">
-               <a href="/details.php">
+            <div class="col-lg-3 col-sm-4 col-6 padding-right">
                   <section class="panel">
+				    <a href="/details.php">
                      <div class="pro-img-box discounted" data-highlighted="24%">
                         <img src="https://img.kokiskashop.hu/p/32/67416/1566895266-812597-big.jpg" alt=""> 
                         <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -273,13 +276,12 @@
                            <button type="submit" class="btn button-green">Érdekel</button>
                         </div>
                      </div>
-               </a>
                </section>
                </a>
             </div>
-            <div class="col-lg-3 col-sm-4 col-6">
-               <a href="/details.php">
+            <div class="col-lg-3 col-sm-4 col-6 padding-right">
                   <section class="panel">
+				    <a href="/details.php">
                      <div class="pro-img-box discounted" data-highlighted="24%">
                         <img src="https://img.kokiskashop.hu/p/1/385/1461453137-169706-big.jpg" alt=""> 
                         <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -293,9 +295,10 @@
                         <h4>
                            <div class="pro-title">
                               Kerti sátor GARTHEN 3 x 3 m - zöld 
-               </a>
+							</div>
                </h4>
                <div class='price-shipping'>
+			    <span class="free-shipping-span">Raktáron </span>
                <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
                <span class="amount-old">4880 Ft</span> 
                <span class="price">3690 Ft</span>
@@ -305,12 +308,12 @@
                <button type="submit" class="btn button-green">Érdekel</button>
                </div>
                </div>
-               </a>
+               </a> 
                </section>
                </div>
-               <div class="col-lg-3 col-sm-4 col-6">
-                  <a href="/details.php">
+               <div class="col-lg-3 col-sm-4 col-6 padding-right">
                      <section class="panel">
+					   <a href="/details.php">
                         <div class="pro-img-box discounted" data-highlighted="24%">
                            <img src="https://img.kokiskashop.hu/p/43/1147/1536654750-351257-big.jpg" alt=""> 
                            <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -340,9 +343,9 @@
                      </section>
                   </a>
                </div>
-               <div class="col-lg-3 col-sm-4 col-6">
-                  <a href="/details.php">
+               <div class="col-lg-3 col-sm-4 col-6 padding-right">
                      <section class="panel">
+					   <a href="/details.php">
                         <div class="pro-img-box discounted" data-highlighted="24%">
                            <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
                            <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -376,10 +379,9 @@
             <!--.row-->
             <h1>Felkapott termékek</h1>
             <div class="row">
-               <div class="col-lg-3 col-sm-4 col-6">
-                  <a href="#">
-                  <a href="/details.php">
+               <div class="col-lg-3 col-sm-4 col-6 padding-right">
                      <section class="panel">
+					   <a href="/details.php">
                         <div class="pro-img-box discounted" data-highlighted="24%">
                            <img src="https://img.kokiskashop.hu/p/32/67416/1566895266-812597-big.jpg" alt=""> 
                            <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -406,13 +408,12 @@
                               <button type="submit" class="btn button-green">Érdekel</button>
                            </div>
                         </div>
-                  </a>
                   </section>
                   </a>
                </div>
-               <div class="col-lg-3 col-sm-4 col-6">
-                  <a href="/details.php">
+               <div class="col-lg-3 col-sm-4 col-6 padding-right">
                      <section class="panel">
+					   <a href="/details.php">
                         <div class="pro-img-box discounted" data-highlighted="24%">
                            <img src="https://img.kokiskashop.hu/p/1/385/1461453137-169706-big.jpg" alt=""> 
                            <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -426,9 +427,10 @@
                            <h4>
                               <div class="pro-title">
                                  Kerti sátor GARTHEN 3 x 3 m - zöld 
-                  </a>
+							  </div>
                   </h4>
                   <div class='price-shipping'>
+				   <span class="free-shipping-span">Raktáron </span>
                   <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
                   <span class="amount-old">4880 Ft</span> 
                   <span class="price">3690 Ft</span>
@@ -441,9 +443,9 @@
                   </a>
                   </section>
                   </div>
-                  <div class="col-lg-3 col-sm-4 col-6">
-                     <a href="/details.php">
+                  <div class="col-lg-3 col-sm-4 col-6 padding-right">
                         <section class="panel">
+						  <a href="/details.php">
                            <div class="pro-img-box discounted" data-highlighted="24%">
                               <img src="https://img.kokiskashop.hu/p/43/1147/1536654750-351257-big.jpg" alt=""> 
                               <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -473,9 +475,9 @@
                         </section>
                      </a>
                   </div>
-                  <div class="col-lg-3 col-sm-4 col-6">
-                     <a href="/details.php">
+                  <div class="col-lg-3 col-sm-4 col-6 padding-right">
                         <section class="panel">
+						  <a href="/details.php">
                            <div class="pro-img-box discounted" data-highlighted="24%">
                               <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
                               <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>

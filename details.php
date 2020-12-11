@@ -20,7 +20,7 @@
    <div class='product-details'>
       <section>
          <div class="row">
-            <div class="col-lg-5 col-md-12">
+            <div class="col-lg-5 col-md-12 ">
                <div class="card product-discounted" data-highlighted="24%">
                   <fieldset id="f11" class="active">
                      <div class="product-pic"> <img class="pic0" src="https://img.kokiskashop.hu/p/32/67416/1566895266-812597-big.jpg"> </div>
@@ -255,8 +255,7 @@
                <div class="carousel-inner product-list">
                   <div class="carousel-item active">
                      <div class="row">
-                        <div class="col-lg-3 col-sm-4 col-6">
-                           <a href="#">
+                        <div class="col-lg-3 col-sm-4 col-6 padding-right">
 						      <a href="/details.php">
                               <section class="panel">
                                  <div class="pro-img-box discounted" data-highlighted="24%">
@@ -285,13 +284,12 @@
                            <button type="submit" class="btn button-green">Érdekel</button>
                            </div>
                            </div>
-						   </a>
                            </section>
                            </a>
                         </div>
-                        <div class="col-lg-3 col-sm-4 col-6">
-							<a href="/details.php">
+                        <div class="col-lg-3 col-sm-4 col-6 padding-right">
                            <section class="panel">
+						   	<a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
                                  <img src="https://img.kokiskashop.hu/p/1/385/1461453137-169706-big.jpg" alt=""> 
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -305,9 +303,10 @@
                                  <h4>
                                     <div class="pro-title">
                                     Kerti sátor GARTHEN 3 x 3 m - zöld 
-                                    </a>
+                                    </div>
                                  </h4>
                                  <div class='price-shipping'>
+									  <span class="free-shipping-span"> Raktáron </span>
                                     <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
                                        <span class="amount-old">4880 Ft</span> 
                                        <span class="price">3690 Ft</span>
@@ -320,9 +319,9 @@
 							  </a>
                            </section>
                         </div>
-                        <div class="col-lg-3 col-sm-4 col-6">
-						<a href="/details.php">
+                        <div class="col-lg-3 col-sm-4 col-6 padding-right">
                            <section class="panel">
+						   	<a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
                                  <img src="https://img.kokiskashop.hu/p/43/1147/1536654750-351257-big.jpg" alt=""> 
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -352,9 +351,9 @@
                            </section>
 						   </a>
                         </div>
-                        <div class="col-lg-3 col-sm-4 col-6">
-						<a href="/details.php">
+                        <div class="col-lg-3 col-sm-4 col-6 padding-right">
                            <section class="panel">
+						   	<a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
                                  <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -391,10 +390,10 @@
                   <div class="carousel-item">
                      <div class="row">
 					 
-                        <div class="col-lg-3 col-sm-4 col-6">
+                        <div class="col-lg-3 col-sm-4 col-6 padding-right">
 						
-						<a href="/details.php">
                            <section class="panel">
+						   	<a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
                                  <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -425,9 +424,9 @@
                            </section>
                         </div>
 						
-                        <div class="col-lg-3 col-sm-4 col-6">
-						 <a href="/details.php">
+                        <div class="col-lg-3 col-sm-4 col-6 padding-right">
                            <section class="panel">
+						   	 <a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
                                  <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -458,9 +457,10 @@
 						   </a>
                         </div>
 					
-                        <div class="col-lg-3 col-sm-4 col-6">
-						 <a href="/details.php">
+                        <div class="col-lg-3 col-sm-4 col-6 padding-right">
                            <section class="panel">
+						   	  <a href="/details.php">
+							  
                               <div class="pro-img-box discounted" data-highlighted="24%">
                                  <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
@@ -491,9 +491,9 @@
                            </section>
                         </div>
 						
-                        <div class="col-lg-3 col-sm-4 col-6">
-						 <a href="/details.php">
+                        <div class="col-lg-3 col-sm-4 col-6 padding-right">
                            <section class="panel">
+						    <a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
                                  <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>

@@ -867,6 +867,7 @@ a.active {
 	/*display: flex;
     flex-direction: column;*/
 	align-items: center;
+	text-align:center;
 }
 
 .buttons_app .button_app {
@@ -1167,6 +1168,10 @@ fieldset {
 	}
 	.product-details {
 		margin-top: 15px !important;
+	}
+	
+	.padding-right {
+		padding-right: 15px !important;
 	}
 }
 
@@ -1581,3 +1586,10 @@ body.offcanvas-active {
 	max-width: 200px;
 }
 
+.padding-right {
+   padding-right: 40px;
+}
+
+.topseller-app-info-span{
+	text-align:center;
+}
