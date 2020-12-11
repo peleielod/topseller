@@ -10,9 +10,9 @@ $(window).scroll(function() {
 	}
 });
 
-/*$('#searchBtnMobile').click(function() {
+$('#searchBtnMobile').click(function() {
   $('#mobil-search-bar').slideToggle('slow');
-});*/
+});
 
 
 $('#mobil-filter-enabled').click(function() {
