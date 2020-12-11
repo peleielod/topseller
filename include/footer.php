@@ -7,14 +7,14 @@
 					<div class="col-xs-6 col-sm-4 col-md-5 col-lg-5">
 						<h3>TOPSELLER.HU-RÓL</h3>
 						<div class='text'>
-							<li><a href="/">Hogyan működik a Topseller.hu </a></li>
-							<li><a href="/">Rendelés a Topselleren</a></li>
-							<li><a href="/">Kiszállítási, fizetési mód</a></li>
-							<li><a href="/">Fizess Barionnal</a></li>
+							<p class='footer-text'><a href="/">Hogyan működik a Topseller.hu </a></p>
+							<p class='footer-text'><a href="/">Rendelés a Topselleren</a></p>
+							<p class='footer-text'><a href="/">Kiszállítási, fizetési mód</a></p>
+							<p class='footer-text'><a href="/">Fizess Barionnal</a></p>
 						</div>
 					</div>
 					
-					<div class="col-xs-6 col-sm-4 col-md-7 col-lg-7 justify-content-left">
+					<div class="col-xs-6 col-sm-4 col-md-7 col-lg-7 justify-content-left padding-right">
 						<h3  class='text-center'>TOPSELLER.HU ALKALMAZÁS</h3>
 						<div class='text'>
 							<a href="/akcioink" class=""><p class="topseller-app-info-span"> A Topseller alkalmazással az inspiráló divatötletek mindig a rendelkezésedre állnak. Új termékeket, kollekciókat és kedvezményeket találhatsz ingyen, egy helyen!  </p></a>

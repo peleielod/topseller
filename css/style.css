@@ -1593,3 +1593,7 @@ body.offcanvas-active {
 .topseller-app-info-span{
 	text-align:center;
 }
+
+.footer-text{
+	margin-bottom: 0rem !important;
+}
