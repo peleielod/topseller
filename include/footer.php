@@ -5,7 +5,7 @@
 				<div class='row'>
 
 					<div class="col-xs-6 col-sm-4 col-md-5 col-lg-5">
-						<h3>TOPSELLER.HU-RÓL</h3>
+						<h3>Topseller.hu-ról</h3>
 						<div class='text'>
 							<p class='footer-text'><a href="/">Hogyan működik a Topseller.hu </a></p>
 							<p class='footer-text'><a href="/">Rendelés a Topselleren</a></p>
@@ -15,7 +15,7 @@
 					</div>
 					
 					<div class="col-xs-6 col-sm-4 col-md-7 col-lg-7 justify-content-left padding-right">
-						<h3  class='text-center'>TOPSELLER.HU ALKALMAZÁS</h3>
+						<h3  class='text-center'>Topseller Alkalmazás</h3>
 						<div class='text'>
 							<a href="/akcioink" class=""><p class="topseller-app-info-span"> A Topseller alkalmazással az inspiráló divatötletek mindig a rendelkezésedre állnak. Új termékeket, kollekciókat és kedvezményeket találhatsz ingyen, egy helyen!  </p></a>
 						

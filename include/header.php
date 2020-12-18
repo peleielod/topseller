@@ -13,7 +13,6 @@
       <link href="css/style.css" rel="stylesheet">
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
    </head>
-   <body>
       <header>
          <!--Modal: Login / Register Form-->
          <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -110,7 +109,7 @@
                </div>
             </div>
             <!-- MOBIL MENU -->
-            <div class='section-logo logo-mobil d-xl-none'>
+            <!--<div class='section-logo logo-mobil d-xl-none'>
                <div class="container">
                   <div class='row'>
                      <div class='col-12 text-center'>
@@ -118,13 +117,13 @@
                      </div>
                   </div>
                </div>
-            </div>
+            </div>-->
             <!-- DESKTOP MENU -->
             <div class='section-logo logo-desktop d-xl-block d-lg-none d-xl-none d-sm-none d-none'>
                <div class="container">
                   <div class='row'>
-                     <div class="col-xl-3 vcenter-item justify-content-left">
-                        <a href='/'><img src='images/logo.png'></a>
+                     <div class="col-xl-3 vcenter-item justify-content-left" style='height: 70px; margin-bottom: 10px;'>
+                        <!--<a href='/'><img src='images/logo.png'></a>-->
                      </div>
                      <div class="col-xl-5 vcenter-item justify-content-center">
                         <div class="input-group">
@@ -151,7 +150,8 @@
                <i class="fa fa-bars bg-transparent icon-input icon-input-menu" aria-hidden="true"></i>
                </button>
                <div class="d-xl-none text-left d-flex">
-                  <a href="" class="navbar-button-mobile"><img src="images/bell01.png"></a>
+			    <a href="/index" class="navbar-button-mobile" style='font-size:33px !important;'><i class="fa fa-home"></i></a>
+                  <a href="" class="navbar-button-mobile"><i class="fa fa-bell"></i></a>
                   <span href="" class="navbar-button-mobile"><i class="fa fa-heart" aria-hidden="true"></i></span>
                   <span class="navbar-button-mobile"><a href='#' id="searchBtnMobile"><i class="fa fa-search"></i></a></span>
                   <a  href='#' data-toggle="collapse" data-target="#users-navbar"><span href="" class="navbar-button-mobile"> <i class="fa fa-user"></i></span></a>
@@ -189,97 +189,136 @@
                      <div id='append_categories'>
                      </div>
                      <ul class="navbar-nav mx-auto default-categories">
-                        <li class="nav-item-mobil  d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/tcOhhnhI5zoSTGXw5ZN0TDr4yGUvx3v5YLnyGJ4y.jpeg'>
-                           <a class="nav-link-mobil" data-id = '1' data-name = 'Bútorok' href="#">Bútorok</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/kQV3UOPJxOV7w1IKn6RyyvpU2Rch38tt6zUpGKCV.jpeg'>
-                           <a class="nav-link-mobil" data-id = '2' data-name = 'Dekoráció'  href="#">Dekoráció</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/Vi3GjGnt14eKwDwtN30wP0zVWutoLdX2Jn4G2Arq.jpeg'>
-                           <a class="nav-link-mobil" data-id = '3' data-name = 'Textil' href="#">Textil</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/CQHbKszapmttSri2t1fTzpEDiSqf3rQ0TBP55OUS.jpeg'>
-                           <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">Világítás</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/Tkj5n3yJ2cJpVqMnhIuIsnWmfcxJOVHT4fSrGHge.jpeg'>
-                           <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">Felújítás</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/Tkj5n3yJ2cJpVqMnhIuIsnWmfcxJOVHT4fSrGHge.jpeg'>
-                           <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">Konyha</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/eawONX1KdkjI0YKJQMXqNDIxAUYW5QuQKbUTqfnY.jpeg'>
-                           <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">Fürdőszoba</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/MIUVPVRlnUlFVu9W3ddgbtqi8ZeSKjTyKvLy6ozg.jpeg'>
-                           <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">Nappali</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/hauKyMwCKaM2gWxjxW0SUSLBzrMFykPDAujrai87.jpeg'>
-                           <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">Hálószoba</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/CQHbKszapmttSri2t1fTzpEDiSqf3rQ0TBP55OUS.jpeg'>
-                           <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">Gyerekszoba</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/kQV3UOPJxOV7w1IKn6RyyvpU2Rch38tt6zUpGKCV.jpeg'>
-                           <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">Előszoba</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/VQRaXDJqUsJZ6bqYpwOtTnfgbsXpLzjDCyGjXNOH.jpeg'>
-                           <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">Dolgozószoba</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
-                        <li class="nav-item-mobil d-flex">
-                           <img src='https://api.new.topseller.hu/storage/categories/vG85rWB5ECbSZC1scV9xQENcmQnPd1Dwlqkwp2Ke.jpeg'>
-                           <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">%Kedvezmények</a>
-                           <div class='ml-auto mr-3'>
-                              <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
-                           </div>
-                        </li>
+		
+						<a class="nav-link-mobil" data-id = '1' data-name = 'Bútorok' href="#">
+							<li class="nav-item-mobil  d-flex">
+								   <img src='https://api.new.topseller.hu/storage/categories/tcOhhnhI5zoSTGXw5ZN0TDr4yGUvx3v5YLnyGJ4y.jpeg'>
+								   <div class='mobil-menu-text'>Bútorok</div>
+								   <div class='ml-auto mr-3 d-flex'>
+									  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+								   </div>
+							</li>
+						</a>
+						
+						<a class="nav-link-mobil" data-id = '2' data-name = 'Dekoráció'  href="#">   
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/kQV3UOPJxOV7w1IKn6RyyvpU2Rch38tt6zUpGKCV.jpeg'>
+							   <div class='mobil-menu-text'>Dekoráció</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
+						
+						  <a class="nav-link-mobil" data-id = '3' data-name = 'Textil' href="#">   
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/Vi3GjGnt14eKwDwtN30wP0zVWutoLdX2Jn4G2Arq.jpeg'>
+								<div class='mobil-menu-text'>Textil</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
+						
+						 <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/CQHbKszapmttSri2t1fTzpEDiSqf3rQ0TBP55OUS.jpeg'>
+								 <div class='mobil-menu-text'>Világítás</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
+						
+						 <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/Tkj5n3yJ2cJpVqMnhIuIsnWmfcxJOVHT4fSrGHge.jpeg'>
+								 <div class='mobil-menu-text'>Felújítás</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
+						
+						 <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/Tkj5n3yJ2cJpVqMnhIuIsnWmfcxJOVHT4fSrGHge.jpeg'>
+							   <div class='mobil-menu-text'>Konyha</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
+						
+						 <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/eawONX1KdkjI0YKJQMXqNDIxAUYW5QuQKbUTqfnY.jpeg'>
+							    <div class='mobil-menu-text'>Fürdőszoba</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
+						
+						 <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/MIUVPVRlnUlFVu9W3ddgbtqi8ZeSKjTyKvLy6ozg.jpeg'>
+							   <div class='mobil-menu-text'>Nappali</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
+						
+						 <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/hauKyMwCKaM2gWxjxW0SUSLBzrMFykPDAujrai87.jpeg'>
+							   <div class='mobil-menu-text'>Hálószoba</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
+						
+						 <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/CQHbKszapmttSri2t1fTzpEDiSqf3rQ0TBP55OUS.jpeg'>
+							   <div class='mobil-menu-text'>Gyerekszoba</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
+						
+						 <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/kQV3UOPJxOV7w1IKn6RyyvpU2Rch38tt6zUpGKCV.jpeg'>
+							   <div class='mobil-menu-text'>Előszoba</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
+						
+						 <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/VQRaXDJqUsJZ6bqYpwOtTnfgbsXpLzjDCyGjXNOH.jpeg'>
+							   <div class='mobil-menu-text'>Dolgozószoba</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
+						
+						<a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/vG85rWB5ECbSZC1scV9xQENcmQnPd1Dwlqkwp2Ke.jpeg'>
+							  <div class='mobil-menu-text'>Kedvezmények</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
                      </ul>
                   </div>
                   <div class="container">
@@ -292,5 +331,6 @@
          </nav>
          </div>
       </header>
+	     <body>
       <div class='header-margin'></div>
 

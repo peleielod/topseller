@@ -1,23 +1,27 @@
 <?php include(__DIR__ . '/include/header.php'); ?>
 
 
+<div class="product-page-categorylist-div">
+	<div class='container'>
+  <div class='row'>
+		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-9">
+			<a href="/" class="nuxt-link-active"><i class="fa fa-home" style='font-size:20px !important;'></i> Kezdőlap</a>  
+		</div> 
+	
+		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-3">
+			<a href="/product-list" class="product-page-categorylist-back nuxt-link-active"><i class="fa fa-chevron-left" style='font-size:20px !important;'></i> Vissza</a>
+		</div>
+	</div>
+	</div>
+</div>
+
 
 <!--Section: Block Content-->
 <div class='container'>
 
-<div class="product-page-categorylist-div">
-  <div class='row'>
-		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-9">
-			<a href="/" class="nuxt-link-active">Kezdőlap &gt;</a>  
-		</div> 
-	
-		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-3">
-			<a href="/product-list" class="product-page-categorylist-back nuxt-link-active">Vissza</a>
-		</div>
-	</div>
-</div>
 
    <div class='product-details'>
+   <div class='product-details-margin'></div>
       <section>
          <div class="row">
             <div class="col-lg-5 col-md-12 ">
@@ -112,21 +116,15 @@
 				  <hr>
 					<div class='row'>
 
-				    <div class="col-lg-3 col-md-3  col-sm-6  col-6 d-flex">
+				    <div class="col-lg-6 col-md-6  col-sm-6  col-6 d-flex">
 						<div class='product-price-container-col-div'>
 						<span class="amount-old">4880 Ft</span>
 						<span class='price'>15 990 Ft</span>
                   </div>
 					</div>
-				   <div class="col-lg-5 col-md-5 col-sm-6 col-6 d-flex">
-						<div class="d-flex align-items-center">
-							<button type="button" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" value="-" class="button-minus">-</button>
-							<input type="number"  class="cart-count"  name="quantity" value="1" title="Mny" size="4"  >
-							<button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" type="button" value="+" class="button-plus">+</button>
-						</div>
-				    </div>
+
 					
-					 <div class="shop-botton col-lg-4 col-md-4  col-sm-12  col-12 d-flex">
+					 <div class="shop-botton col-lg-6 col-md-6  col-sm-12  col-12 d-flex">
 						<button class="btn button-green-details"><span class='add-to-card'>Tovább a boltba</span><i class="fa fa-chevron-right"></i></button>
 					</div>
 					</div>

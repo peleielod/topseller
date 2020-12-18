@@ -1,4 +1,4 @@
-$(window).scroll(function() {
+/*$(window).scroll(function() {
 	if ($(window).width() <=1200) {	
 	  if ($(window).scrollTop() > 70) {
 			$(".navbar").css("position","fixed")  
@@ -8,7 +8,7 @@ $(window).scroll(function() {
 			$(".navbar").css("position","relative")  
 	  }
 	}
-});
+});*/
 
 $('#searchBtnMobile').click(function() {
   $('#mobil-search-bar').slideToggle('slow');

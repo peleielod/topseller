@@ -2,7 +2,7 @@
 
 :root {
 	--nav-font-color: #ffffff;
-	--header-color: #f50;
+	--header-color: #a61932;
 	--footer-bg: #222;
 }
 
@@ -52,6 +52,11 @@ button:focus {
 	background-color: var(--header-color) !important;
 	color: var(--nav-font-color);
 	z-index: 5;
+	height: 55px;
+	border-bottom:solid 2px #222222;
+	
+	position:fixed;
+	width: 100%;
 }
 
 .navbar a {
@@ -121,7 +126,7 @@ button:focus {
 
 
 .navbar-custom .nav-item-mobil {
-	padding-left: 15px;
+	/*padding-left: 15px;*/
 	padding-top: 4px;
 	padding-bottom: 4px;
 	border-bottom: 1px solid #eee;
@@ -138,9 +143,28 @@ button:focus {
 	transition: 0.5s;
 }
 
+
+.navbar-custom  .nav-link-mobil {
+	color: #000000 !important;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	display: block;
+	transition: 0.5s;
+}
+
+.mobil-menu-text{
+	padding-top: 12px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+}
+
+.navbar-custom  .nav-link-mobil:hover{
+	text-decoration:none;
+}
+
 .mobil-nav-header {
 	padding-top: 15px;
-	background: #f50;
+	background: var(--header-color);
 	padding-bottom: 5px;
 	padding-left: 15px;
 	height: 50px;
@@ -207,12 +231,13 @@ button:focus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-decoration: none;
 }
 
 .section-logo {
 	width: 100%;
 	display: flex;
-	background: #222;
+	background: #ffffff;
 	/*position:fixed; */
 	/*z-index:10;*/
 }
@@ -351,12 +376,13 @@ has-search .form-control {
 	margin-top: -5px;
 	padding: 0px 30px;
 	font-size: 2.1rem !important;
-	color: var(--nav-font-color) !important;
+	color: var(--header-color) !important;
 }
 
 .footer-first {
-	background-color: var(--footer-bg);
-	padding-bottom: 15px
+	background-color: var(--header-color);
+	padding-bottom: 15px;
+	border-top: 2px solid #222222;
 }
 
 .footer-first img {
@@ -368,13 +394,13 @@ has-search .form-control {
 	margin-top: 20px;
 	margin-bottom: 10px;
 	font-family: inherit;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 1.1;
-	color: #f50;
+	color: #ffffff;
 }
 
 .footer-first .text a {
-	color: var(--nav-font-color) !important;
+	color: #ffffff !important;
 	line-height: 25px;
 	font-size: 1em;
 }
@@ -400,6 +426,15 @@ has-search .form-control {
 @media (max-width: 999px) {
 	#product-filters {
 		display: none;
+	}
+	
+	.product-list img {
+		height: 170px !important;
+	}
+}
+@media (max-width: 450px) {
+	.price-shipping{
+		height: 100px !important;
 	}
 }
 
@@ -429,6 +464,7 @@ has-search .form-control {
 	font-size: 16px;
 	font-weight: 600;
 	color: var(--nav-font-color) !important;
+	width: 251px;
 }
 
 .footer-second {
@@ -545,7 +581,7 @@ has-search .form-control {
 	width: 100%;
 	border-radius: 4px 4px 0 0;
 	-webkit-border-radius: 4px 4px 0 0;
-	border: 1px solid #ccc !important;
+	/*border: 1px solid #ccc !important;*/
 	border-bottom: none !important;
 	height: 210px;
 }
@@ -685,10 +721,17 @@ has-search .form-control {
 }
 
 .card-body {
+	/*border: 1px solid #ccc;*/
+	/*background-color: #f2f2f2 !important;*/
+	padding: 0.5rem;
+}
+
+.card-body-category {
 	border: 1px solid #ccc;
 	/*background-color: #f2f2f2 !important;*/
 	padding: 0.5rem;
 }
+
 
 .product-list {
 	margin-top: 0px;
@@ -767,7 +810,7 @@ has-search .form-control {
 .product-rating-title-stars-container-div .starInner::before {
 	content: "\f005 \f005 \f005 \f005 \f005";
 	font-family: fontAwesome;
-	color: #f50;
+	color: var(--header-color);
 	margin-left: -1px;
 	font-size: 20px;
 	box-shadow: none;
@@ -794,7 +837,7 @@ has-search .form-control {
 	margin-top: -5px;
 	padding: 0px 20px;
 	font-size: 1.5rem;
-	color: #f50;
+	color: var(--header-color);
 }
 
 .filter-icons {
@@ -845,7 +888,7 @@ a.active {
 .prod-cat li a:focus,
 .prod-cat li a.active {
 	background: none;
-	color: #0056b3 !important;
+	color: #000000 !important;
 }
 
 .form-control {
@@ -903,13 +946,11 @@ a.active {
 
 .index-page h1 {
 	margin-top: 25px;
-	text-align: center;
 	font-weight: 400;
 	font-size: 30px;
 }
 
 .index-page h2 {
-	text-align: center;
 	font-weight: 400;
 	font-size: 20px;
 	margin-bottom: 11px;
@@ -1156,7 +1197,7 @@ fieldset {
 	#mainNav .nav .dropdown-menu {
 		position: fixed !important;
 		width: 100% !important;
-		margin-top: 5px;
+		margin-top: 8px;
 		color: #000000 !important;
 	}
 	.carousel-control-next-icon {
@@ -1167,12 +1208,23 @@ fieldset {
 		display: block !important;
 	}
 	.product-details {
-		margin-top: 15px !important;
+		margin-top: 75px !important;
 	}
 	
 	.padding-right {
 		padding-right: 15px !important;
 	}
+	
+	.navbar.bg-background{
+		height: auto !important;
+		top:0;
+	}
+	
+
+	.product-details-margin{
+		margin-top:50px;
+	}
+
 }
 
 .nopadding-right {
@@ -1201,7 +1253,7 @@ fieldset {
 
 .classic-tabs .nav.tabs-primary li a.active {
 	color: #000000 !important;
-	border-bottom: 3px solid #f50;
+	border-bottom: 3px solid var(--header-color);
 }
 
 #advancedTabContent {
@@ -1266,7 +1318,7 @@ fieldset {
 #mainNav .nav .dropdown-menu {
 	position: absolute !important;
 	width: 1171px!important;
-	margin-top: 5px;
+	margin-top: 14px;
 	color: #000000 !important;
 }
 
@@ -1494,16 +1546,18 @@ fieldset {
 }
 
 #index-slider .carousel-indicators .active {
-	background: #f50;
+	background: var(--header-color);
 }
 
 .product-page-categorylist-div {
 	display: flex;
 	padding: 9px;
-	background: #f50;
-	margin-top: 9px;
-	border-radius: 4px;
+	background: var(--header-color);
 	display: none;
+	position: fixed;
+	margin-top: -15px;
+	z-index: 2;
+	width: 100%;
 }
 
 .product-page-categorylist-div a {
@@ -1547,7 +1601,7 @@ body.offcanvas-active {
 		padding-left: 1rem;
 		overflow-y: auto;
 		visibility: hidden;
-		background: #f50;
+		background: var(--header-color);
 		font-size: 15px;
 		transition: visibility .2s ease-in-out, transform .2s ease-in-out;
 	}
@@ -1557,12 +1611,12 @@ body.offcanvas-active {
 		bottom: 0;
 		left: 250px;
 		width: 250px;
-		margin-top: 145px;
+		margin-top: 118px;
 		padding-right: 1rem;
 		padding-left: 1rem;
 		overflow-y: auto;
 		visibility: hidden;
-		background: #f50;
+		background: var(--header-color);
 		font-size: 15px;
 	}
 	.navbar-collapse-categories.show,
@@ -1596,4 +1650,13 @@ body.offcanvas-active {
 
 .footer-text{
 	margin-bottom: 0rem !important;
+	color:var(--header-color);
+}
+
+.btn-secondary{
+	background-color: var(--header-color);
+}
+
+.btn-secondary:hover{
+	background-color: var(--header-color);
 }

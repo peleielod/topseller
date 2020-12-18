@@ -1,8 +1,9 @@
 
 
 			<nav id="mainNav" class="navbar" role="navigation" aria-label="Főmenü">
-
 				<ul class="nav" id="mainMenu">
+									 			<a href="/index"> <i class="fa fa-home" style='font-size:25px !important; margin-top:-8px;'></i> </a></a>
+
 			<li class="
 			top-category 									dropdown
 			">

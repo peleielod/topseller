@@ -44,9 +44,14 @@
 </div>
 <!--------------------->
 <div class='product-list-all'>
-   <div class="container">
-      <div class='d-lg-none d-inline-flex'>
+   <div class="product-page-categorylist-div" style='margin-top:35px !important;'>
+    <div class="container">
+      <div class='row'>
+		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-6">
          <button type="submit" class="btn button-green" data-toggle="collapse" data-target="#categories-navbar">Szűrés</button>
+		</div>
+		
+		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-6">
          <select class="form-control hasCustomSelect sort-products">
             <option>Népszerűek elől</option>
             <option>Ár szerint növekvő</option>
@@ -54,13 +59,17 @@
             <option>Név szerint növekvő</option>
             <option>Név szerint csökkenő</option>
          </select>
+		</div>
       </div>
+	  </div>
+	  </div>
+	     <div class="container">
       <div class="row">
          <div class="col-lg-2 nopadding-right">
             <div id='product-filters'>
                <section class="panel">
                   <header class="card-header">Kategória</header>
-                  <div class="card-body">
+                  <div class="card-body-category">
                      <ul class="nav prod-cat">
                         <li class="nav-item">
                            <a href="/details.php" class="active nav-link"><i class="fa fa-angle-right"></i> Dress</a>
@@ -99,7 +108,7 @@
                </section>
                <section class="panel">
                   <header class="card-header">Price Range</header>
-                  <div class="card-body sliders">
+                  <div class="card-body-category sliders">
                      <div id="slider-range" class="slider"></div>
                      <div class="slider-info"> <span id="slider-range-amount"></span>
                      </div>
@@ -107,7 +116,7 @@
                </section>
                <section class="panel">
                   <header class="card-header">Filter</header>
-                  <div class="card-body">
+                  <div class="card-body-category">
                      <form role="form product-form">
                         <div class="form-group">
                            <label>Brand</label>
@@ -146,6 +155,18 @@
             </div>
          </div>
          <div class="col-lg-10">
+		  <div class="col-lg-12 col-sm-12 col-12 text-center">
+                  <section class="panel">
+                     <div class="card-body">
+                        <div class="d-inline-flex text-center">
+                           <a href="/details.php" class="page-link">1</a>
+                           <a href="/details.php" class="page-link">2</a>
+                           <a href="/details.php" class="page-link">3</a>
+                           <a href="/details.php" class="page-link">&#xBB;</a>
+                        </div>
+                     </div>
+                  </section>
+               </div>
             <div class="row product-list">
                <div class="col-lg-3 col-sm-4 col-6">
                   <section class="panel">

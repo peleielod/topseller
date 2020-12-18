@@ -3,7 +3,7 @@ var BackId  = new Array();
 var BackRandomId  = new Array();
 var CurrentDivID;
 
-$(document).on("click",".nav-item-mobil .nav-link-mobil",function (event){
+$(document).on("click",".nav-link-mobil",function (event){
 	 
 	 event.preventDefault();
      var inputHolder = $(this).parent().find("a");
@@ -77,7 +77,7 @@ $(document).on("click",".mobil-nav-header #button-back",function (event){
 function MakeSubcategory(data){
 
 	if (data.child){
-		$SubCategory = '<li class="nav-item-mobil  d-flex"><img src="'+data.image+'"><a class="nav-link-mobil" data-id = "'+data.child+'" data-name = "'+data.name+'" href="#">'+data.name+'</a><div class="ml-auto mr-3"><i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i></div></li>';
+		$SubCategory = '<a class="nav-link-mobil" data-id = "'+data.child+'" data-name = "'+data.name+'" href="#"><li class="nav-item-mobil  d-flex"><img src="'+data.image+'"><div class="mobil-menu-text">'+data.name+'</div><div class="ml-auto mr-3"><i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i></div></li></a>';
 	}else{		
 		$SubCategory = '<li class="nav-item-mobil  d-flex"><img src="'+data.image+'"><a class="sub-categories" data-id = "'+data.child+'" data-name = "'+data.name+'" href="/product-list">'+data.name+'</a>';
 
