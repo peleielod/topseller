@@ -4,11 +4,11 @@
 <div class="product-page-categorylist-div">
 	<div class='container'>
   <div class='row'>
-		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-9">
-			<a href="/" class="nuxt-link-active"><i class="fa fa-home" style='font-size:20px !important;'></i> Kezdőlap</a>  
+		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-8">
+			<a href="/" class="nuxt-link-active"> Kezdőlap</a>  
 		</div> 
 	
-		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-3">
+		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-4">
 			<a href="/product-list" class="product-page-categorylist-back nuxt-link-active"><i class="fa fa-chevron-left" style='font-size:20px !important;'></i> Vissza</a>
 		</div>
 	</div>

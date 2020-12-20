@@ -1658,3 +1658,7 @@ body.offcanvas-active {
 .btn-secondary:hover{
 	background-color: var(--header-color);
 }
+
+.product-page{
+	margin-top:35px !important;
+}

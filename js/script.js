@@ -11,7 +11,14 @@
 });*/
 
 $('#searchBtnMobile').click(function() {
-  $('#mobil-search-bar').slideToggle('slow');
+	 if ($('#mobil-search-bar').css('display') == 'none'){
+		$(".bg-background").css("top", "60px"); 
+		$(".product-page-categorylist-div").css("margin-top", "60px"); 
+	 }else{
+		 $(".bg-background").css("top", "0px"); 
+		 $(".product-page-categorylist-div").css("margin-top", "-15px"); 
+	 }
+	$('#mobil-search-bar').slideToggle('slow');
 });
 
 

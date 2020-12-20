@@ -44,7 +44,7 @@
 </div>
 <!--------------------->
 <div class='product-list-all'>
-   <div class="product-page-categorylist-div" style='margin-top:35px !important;'>
+   <div class="product-page-categorylist-div product-page" style=''>
     <div class="container">
       <div class='row'>
 		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-6">
