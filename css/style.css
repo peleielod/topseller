@@ -321,6 +321,7 @@ textarea {
 
 #mobil-search-bar {
 	display: none;
+	background-color:#ffffff;
 }
 
 .sub-categories {
@@ -1318,7 +1319,7 @@ fieldset {
 #mainNav .nav .dropdown-menu {
 	position: absolute !important;
 	width: 1171px!important;
-	margin-top: 14px;
+	z-index:0;
 	color: #000000 !important;
 }
 
@@ -1328,6 +1329,8 @@ fieldset {
 .dropup {
 	position: inherit !important;
 }
+
+
 
 #mainNav .nav .dropdown-menu .sub-menu-products-category {
 	height: 30px;

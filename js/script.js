@@ -14,9 +14,13 @@ $('#searchBtnMobile').click(function() {
 	 if ($('#mobil-search-bar').css('display') == 'none'){
 		$(".bg-background").css("top", "60px"); 
 		$(".product-page-categorylist-div").css("margin-top", "60px"); 
+		$("body").css("overflow", "hidden"); 
+		$("body").css("opacity", "0.5"); 
 	 }else{
 		 $(".bg-background").css("top", "0px"); 
 		 $(".product-page-categorylist-div").css("margin-top", "-15px"); 
+		 $("body").css("overflow", "auto"); 
+		 $("body").css("opacity", "1"); 
 	 }
 	$('#mobil-search-bar').slideToggle('slow');
 });

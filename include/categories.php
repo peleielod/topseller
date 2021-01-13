@@ -16,7 +16,7 @@
 			>
 				<span>Bútorok</span>
 			</a>
-							<ul class="dropdown-menu sub-nav" id="/termekek/kategoria/butorok" aria-labelledby="dropdownMenu2">
+							<ul  class="dropdown-menu sub-nav" id="/termekek/kategoria/butorok" aria-labelledby="dropdownMenu2">
 					<li>
 						<div class="sub-menu-products">
 						<div class='row'>
