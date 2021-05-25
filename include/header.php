@@ -309,6 +309,16 @@
 							   </div>
 							</li>
 						</a>
+
+                  <a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="/blog.php">
+							<li class="nav-item-mobil d-flex">
+							   <img src='https://api.new.topseller.hu/storage/categories/VQRaXDJqUsJZ6bqYpwOtTnfgbsXpLzjDCyGjXNOH.jpeg'>
+							   <div class='mobil-menu-text'>Magazin</div>
+							   <div class='ml-auto mr-3'>
+								  <i class="fa fa-chevron-right bg-transparent icon-mobil" aria-hidden="true"></i>
+							   </div>
+							</li>
+						</a>
 						
 						<a class="nav-link-mobil" data-id = '3' data-name = 'Világítás' href="#">
 							<li class="nav-item-mobil d-flex">

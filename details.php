@@ -5,16 +5,15 @@
 	<div class='container'>
   <div class='row'>
 		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-8">
-			<a href="/" class="nuxt-link-active"> Kezdőlap</a>  
-		</div> 
-	
+			<a href="/" class="nuxt-link-active"> Kezdőlap</a>
+		</div>
+
 		<div cols-sm="6" cols-md="4" cols-lg="4" class="col-4">
 			<a href="/product-list" class="product-page-categorylist-back nuxt-link-active"><i class="fa fa-chevron-left" style='font-size:20px !important;'></i> Vissza</a>
 		</div>
 	</div>
-	</div>
 </div>
-
+</div>
 
 <!--Section: Block Content-->
 <div class='container'>
@@ -38,7 +37,7 @@
                   <fieldset id="f41" class="">
                      <div class="product-pic"> <img class="pic0" src="https://topseller.hu/upload/s/sh/l/shaggy-puder-beige-bezs-80x250cm-235553-exkluziv-shaggy-szonyeg-akcio.jpg"> </div>
                   </fieldset>
-				  
+
 				  <div class='d-flex'>
                      <div id="f1" class="tb tb-active"> <img class="thumbnail-img fit-image" src="https://img.kokiskashop.hu/p/32/67416/1566895266-812597-big.jpg"> </div>
                      <div id="f2" class="tb"> <img class="thumbnail-img fit-image" src="https://topseller.hu/upload/4/44/l/440371.jpg"> </div>
@@ -49,7 +48,7 @@
             </div>
             <div class="col-lg-7 col-md-12" style=' overflow: hidden;'>
                <div class='product-informations'>
-			   
+
 				<div class='row'>
 				   <div class="col-lg-11">
 						<h5>Elvira 3d Shaggy szőnyeg 1138 beige (bézs) 200x290cm</h5>
@@ -61,8 +60,10 @@
 						</div>
 					</div>
 				</div>
-				
-                 
+
+
+
+
                   <p class="pt-1">A szőnyeg egyenesen a gyártótól érkezett minden nemű vegyi és ipari tisztítás nélkül. Ön lehet az első aki ezt a meseszép szőnyeget kiporszívózhatja, amit mindenképpen javaslunk, hogy a gyártás során keletkezett szöszök eltűnjenek.</p>
                   <div class="table-responsive">
                      <table class="table table-sm table-borderless mb-0">
@@ -79,7 +80,7 @@
                               <th class="pl-0 w-25" scope="row"><strong>Delivery</strong></th>
                               <td>USA, Europe</td>
                            </tr>
-						   
+
 						     <tr>
                               <th class="pl-0 w-25" scope="row"><strong>Méret</strong></th>
                               <td>
@@ -103,7 +104,7 @@
 									<div class='text-bottom'>Szállítás 1-2 munkanapon belül</div>
 								</div>
 							</div>
-							
+
 							 <div class="transport-bg col-lg-6 col-md-6 d-flex">
 								<i class="icons transport fa fa-truck fa-flip-horizontal"></i>
 								<div class='text-stock'>
@@ -123,7 +124,7 @@
                   </div>
 					</div>
 
-					
+
 					 <div class="shop-botton col-lg-6 col-md-6  col-sm-12  col-12 d-flex">
 						<button class="btn button-green-details"><span class='add-to-card'>Tovább a boltba</span><i class="fa fa-chevron-right"></i></button>
 					</div>
@@ -257,7 +258,7 @@
 						      <a href="/details.php">
                               <section class="panel">
                                  <div class="pro-img-box discounted" data-highlighted="24%">
-                                    <img src="https://img.kokiskashop.hu/p/32/67416/1566895266-812597-big.jpg" alt=""> 
+                                    <img src="https://img.kokiskashop.hu/p/32/67416/1566895266-812597-big.jpg" alt="">
                                     <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
                                  </div>
                                  <div class="card-body text-center">
@@ -268,13 +269,13 @@
                                     </div>
                                     <h4>
                            <div class="pro-title">
-                           Sárkány - 140 x 74 cm 
+                           Sárkány - 140 x 74 cm
                            </div >
                            </h4>
                            <div class='price-shipping'>
                            <span class="free-shipping-span"> Ingyenes szállítással </span>
                            <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
-                           <span class="amount-old">4880 Ft</span> 
+                           <span class="amount-old">4880 Ft</span>
                            <span class="price">3690 Ft</span>
                            </div>
                            </div>
@@ -289,7 +290,7 @@
                            <section class="panel">
 						   	<a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
-                                 <img src="https://img.kokiskashop.hu/p/1/385/1461453137-169706-big.jpg" alt=""> 
+                                 <img src="https://img.kokiskashop.hu/p/1/385/1461453137-169706-big.jpg" alt="">
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
                               </div>
                               <div class="card-body text-center">
@@ -300,13 +301,13 @@
                                  </div>
                                  <h4>
                                     <div class="pro-title">
-                                    Kerti sátor GARTHEN 3 x 3 m - zöld 
+                                    Kerti sátor GARTHEN 3 x 3 m - zöld
                                     </div>
                                  </h4>
                                  <div class='price-shipping'>
 									  <span class="free-shipping-span"> Raktáron </span>
                                     <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
-                                       <span class="amount-old">4880 Ft</span> 
+                                       <span class="amount-old">4880 Ft</span>
                                        <span class="price">3690 Ft</span>
                                     </div>
                                  </div>
@@ -321,7 +322,7 @@
                            <section class="panel">
 						   	<a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
-                                 <img src="https://img.kokiskashop.hu/p/43/1147/1536654750-351257-big.jpg" alt=""> 
+                                 <img src="https://img.kokiskashop.hu/p/43/1147/1536654750-351257-big.jpg" alt="">
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
                               </div>
                               <div class="card-body text-center">
@@ -332,13 +333,13 @@
                                  </div>
                                  <h4>
                                     <div class="pro-title">
-                                    Minőségi szék fémből - MONZA, kék 
+                                    Minőségi szék fémből - MONZA, kék
                                     </div>
                                  </h4>
                                  <div class='price-shipping'>
                                     <span class="free-shipping-span"> Ingyenes szállítással </span>
                                     <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
-                                       <span class="amount-old">4880 Ft</span> 
+                                       <span class="amount-old">4880 Ft</span>
                                        <span class="price">3690 Ft</span>
                                     </div>
                                  </div>
@@ -353,7 +354,7 @@
                            <section class="panel">
 						   	<a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
-                                 <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
+                                 <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt="">
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
                               </div>
                               <div class="card-body text-center">
@@ -364,13 +365,13 @@
                                  </div>
                                  <h4>
                                     <div class="pro-title">
-                                    Műanyag kosár CURVER MY STYLE L - rózsaszín 
+                                    Műanyag kosár CURVER MY STYLE L - rózsaszín
                                     </div>
                                  </h4>
                                  <div class='price-shipping'>
                                     <span class="free-shipping-span"> Ingyenes szállítással </span>
                                     <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
-                                       <span class="amount-old">4880 Ft</span> 
+                                       <span class="amount-old">4880 Ft</span>
                                        <span class="price">3690 Ft</span>
                                     </div>
                                  </div>
@@ -387,13 +388,13 @@
                   <!--.item-->
                   <div class="carousel-item">
                      <div class="row">
-					 
+
                         <div class="col-lg-3 col-sm-4 col-6 padding-right">
-						
+
                            <section class="panel">
 						   	<a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
-                                 <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
+                                 <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt="">
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
                               </div>
                               <div class="card-body text-center">
@@ -404,13 +405,13 @@
                                  </div>
                                  <h4>
                                     <div class="pro-title">
-                                    Műanyag kosár CURVER MY STYLE L - rózsaszín 
+                                    Műanyag kosár CURVER MY STYLE L - rózsaszín
 									</div>
                                  </h4>
                                  <div class='price-shipping'>
                                     <span class="free-shipping-span"> Ingyenes szállítással </span>
                                     <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
-                                       <span class="amount-old">4880 Ft</span> 
+                                       <span class="amount-old">4880 Ft</span>
                                        <span class="price">3690 Ft</span>
                                     </div>
                                  </div>
@@ -421,12 +422,12 @@
 							    </a>
                            </section>
                         </div>
-						
+
                         <div class="col-lg-3 col-sm-4 col-6 padding-right">
                            <section class="panel">
 						   	 <a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
-                                 <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
+                                 <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt="">
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
                               </div>
                               <div class="card-body text-center">
@@ -437,13 +438,13 @@
                                  </div>
                                  <h4>
                                     <div class="pro-title">
-                                    Műanyag kosár CURVER MY STYLE L - rózsaszín 
+                                    Műanyag kosár CURVER MY STYLE L - rózsaszín
                                     </div>
                                  </h4>
                                  <div class='price-shipping'>
                                     <span class="free-shipping-span"> Ingyenes szállítással </span>
                                     <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
-                                       <span class="amount-old">4880 Ft</span> 
+                                       <span class="amount-old">4880 Ft</span>
                                        <span class="price">3690 Ft</span>
                                     </div>
                                  </div>
@@ -454,13 +455,13 @@
                            </section>
 						   </a>
                         </div>
-					
+
                         <div class="col-lg-3 col-sm-4 col-6 padding-right">
                            <section class="panel">
 						   	  <a href="/details.php">
-							  
+
                               <div class="pro-img-box discounted" data-highlighted="24%">
-                                 <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
+                                 <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt="">
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
                               </div>
                               <div class="card-body text-center">
@@ -471,13 +472,13 @@
                                  </div>
                                  <h4>
                                     <div class="pro-title">
-                                    Műanyag kosár CURVER MY STYLE L - rózsaszín 
+                                    Műanyag kosár CURVER MY STYLE L - rózsaszín
                                     </div>
                                  </h4>
                                  <div class='price-shipping'>
                                     <span class="free-shipping-span"> Ingyenes szállítással </span>
                                     <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
-                                       <span class="amount-old">4880 Ft</span> 
+                                       <span class="amount-old">4880 Ft</span>
                                        <span class="price">3690 Ft</span>
                                     </div>
                                  </div>
@@ -488,12 +489,12 @@
 							  </a>
                            </section>
                         </div>
-						
+
                         <div class="col-lg-3 col-sm-4 col-6 padding-right">
                            <section class="panel">
 						    <a href="/details.php">
                               <div class="pro-img-box discounted" data-highlighted="24%">
-                                 <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt=""> 
+                                 <img src="https://img.kokiskashop.hu/p/8/41155/1489564880-995878-big.jpg" alt="">
                                  <span class="list-fav-span product-icons"><i class="fa fa-heart-o"></i></span>
                               </div>
                               <div class="card-body text-center">
@@ -504,13 +505,13 @@
                                  </div>
                                  <h4>
                                     <div class="pro-title">
-                                    Műanyag kosár CURVER MY STYLE L - rózsaszín 
+                                    Műanyag kosár CURVER MY STYLE L - rózsaszín
                                     </div>
                                  </h4>
                                  <div class='price-shipping'>
                                     <span class="free-shipping-span"> Ingyenes szállítással </span>
                                     <div cols-sm="12" cols-md="4" cols-lg="4" class="product-price-container-col-div col-12">
-                                       <span class="amount-old">4880 Ft</span> 
+                                       <span class="amount-old">4880 Ft</span>
                                        <span class="price">3690 Ft</span>
                                     </div>
                                  </div>

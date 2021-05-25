@@ -1049,7 +1049,7 @@
 			<li class="
 												dropdown
 			">
-			<a
+			<!-- <a
 				class="menu-link disabled"
 				role="button"
 				aria-haspopup="true"
@@ -1057,7 +1057,7 @@
 				href="/termekek/kategoria/dolgozoszoba"
 			>
 				<span>Dolgozószoba</span>
-			</a>
+			</a> -->
 							<ul class="dropdown-menu sub-nav" id="/termekek/kategoria/dolgozoszoba" aria-labelledby="dropdownMenu2">
 					<li>
 						<div class="sub-menu-products row">
@@ -1098,6 +1098,15 @@
 					</li>
 				</ul>
 					</li>
+					<a
+				class="menu-link disabled"
+				role="button"
+				aria-haspopup="true"
+				aria-expanded="false"
+				href="/blog.php"
+			>
+				<span>Magazin</span>
+			</a>	
 		
 	</ul>
 </nav>
